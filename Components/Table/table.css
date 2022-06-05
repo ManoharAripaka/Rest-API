@@ -1,0 +1,59 @@
+.table{
+    margin: 40px;
+}
+table{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+td, th{
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px 8px;
+}
+#head{
+    background-color: rgb(161, 158, 158);
+}
+tbody{
+    background-color: whitesmoke;
+}
+#c3, #c4{
+    max-width: 100px;
+}
+#update{
+    border-radius: 50%;
+    background-color: whitesmoke;
+    color: green;
+    border: 2px solid whitesmoke;
+    padding: 5px 6px;
+    font-weight: bold;
+    margin: -5px 15px -10px 0px;
+}
+#update:hover{
+    background-color: green;
+    color: white;
+}
+#delete{
+    background-color: whitesmoke;
+    border-radius: 50%;
+    color: red;
+    border: 2px solid whitesmoke;
+    padding: 5px 6px;
+    font-weight: bold;
+    margin: -10px 0px -10px -10px;
+    font-weight: bold;
+}
+#delete:hover{
+    background-color: red;
+    color: white;
+}
+#inFirstName, #inLastName{
+    max-width: 80px;
+    display:flexbox;
+}
+#dataFirstName, #dataLastName{
+    width: 90px;
+    display:flexbox;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis; 
+}
